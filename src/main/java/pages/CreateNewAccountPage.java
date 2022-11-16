@@ -19,11 +19,10 @@ public class CreateNewAccountPage extends PageObject {
     @FindBy(css = "button[title='Create an Account']")
     private WebElement submitBtn;
 
-    public CustomerAccountPage createAnAccount(String password) {
+    public void createAnAccount(String password) {
         this.password.sendKeys(password);
         this.confirmPassword.sendKeys(password);
         submitBtn.click();
-        return new CustomerAccountPage(driver);
     }
 
 }

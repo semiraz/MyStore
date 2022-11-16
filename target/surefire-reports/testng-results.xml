@@ -2,31 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-11T16:28:39 CET" name="Command line suite" finished-at="2022-11-11T16:29:16 CET" duration-ms="37245">
+  <suite started-at="2022-11-16T14:22:11 CET" name="SmokeTestSuite" finished-at="2022-11-16T14:22:55 CET" duration-ms="44101">
     <groups>
     </groups>
-    <test started-at="2022-11-11T16:28:39 CET" name="Command line test" finished-at="2022-11-11T16:29:16 CET" duration-ms="37245">
-      <class name="SmokeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SmokeTest@7d68ef40]" started-at="2022-11-11T16:28:39 CET" name="setUp" finished-at="2022-11-11T16:28:41 CET" duration-ms="2208" status="PASS">
+    <test started-at="2022-11-16T14:22:11 CET" name="/home/semira/IdeaProjects/MyStoreApp-Smoke Test" finished-at="2022-11-16T14:22:55 CET" duration-ms="44101">
+      <class name="tests.SmokeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeTest@2cb4893b]" started-at="2022-11-16T14:22:11 CET" name="setUp" finished-at="2022-11-16T14:22:14 CET" duration-ms="3143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="smokeTest(java.util.HashMap)[pri:0, instance:SmokeTest@7d68ef40]" started-at="2022-11-11T16:28:42 CET" name="smokeTest" data-provider="getData" finished-at="2022-11-11T16:29:16 CET" duration-ms="33938" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{accountIsCreatedNote=Thank you for registering with Fake Online Clothing Store., productName=blue jacket, thankYouText=Thank you for your purchase!}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="smokeTest()[pri:0, instance:tests.SmokeTest@2cb4893b]" started-at="2022-11-16T14:22:14 CET" name="smokeTest" finished-at="2022-11-16T14:22:55 CET" duration-ms="40681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:SmokeTest@7d68ef40]" started-at="2022-11-11T16:29:16 CET" name="quitDriver" finished-at="2022-11-11T16:29:16 CET" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.SmokeTest@2cb4893b]" started-at="2022-11-16T14:22:55 CET" name="quitDriver" finished-at="2022-11-16T14:22:55 CET" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- SmokeTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+      </class> <!-- tests.SmokeTest -->
+    </test> <!-- /home/semira/IdeaProjects/MyStoreApp-Smoke Test -->
+  </suite> <!-- SmokeTestSuite -->
 </testng-results>

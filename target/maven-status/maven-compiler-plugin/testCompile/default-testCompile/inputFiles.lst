@@ -1,5 +1,6 @@
-/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/SmokeTest.java
-/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/Listeners.java
-/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/BaseTest.java
-/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/DataReader.java
-/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/ExtentReport.java
+/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/test_components/ExtentReport.java
+/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/tests/SmokeTest.java
+/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/tests/BaseTest.java
+/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/test_components/Listeners.java
+/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/test_components/DataReader.java
+/home/semira/IdeaProjects/MyStoreApp-Smoke Test/src/test/java/tests/Utilities.java

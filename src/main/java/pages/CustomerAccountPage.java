@@ -29,6 +29,7 @@ public class CustomerAccountPage extends PageObject {
     private WebElement signOutBtn;
 
     public boolean verifyThankYouNote(String note) {
+        waitForWebElementToAppear(thankYouNote);
         return this.thankYouNote.getText().equalsIgnoreCase(note);
     }
 

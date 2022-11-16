@@ -26,9 +26,8 @@ public class SuccessPage extends PageObject {
         return Integer.parseInt(orderId.getText());
     }
 
-    public CreateNewAccountPage goToCreateAnAccount() {
+    public void goToCreateAnAccount() {
         creteAnAccountBtn.click();
-        return new CreateNewAccountPage(driver);
     }
 
 }

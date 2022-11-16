@@ -75,8 +75,7 @@ public void fillShippingAddressForm(ShippingForm shippingForm) {
                 .orElse(null)).click();
     }
 
-    public PaymentPage submit() {
+    public void submit() {
         submitBtn.click();
-        return new PaymentPage(driver);
     }
 }

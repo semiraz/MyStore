@@ -1,3 +1,4 @@
+package test_components;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.FileUtils;

@@ -36,7 +36,7 @@ public class PaymentPage extends PageObject {
         return (priceD == price) && (itemName.getText().equalsIgnoreCase(productName));
     }
 
-    public SuccessPage submitTheOrder() {
+    public void submitTheOrder() {
         if (!checkAddressBtn.isSelected()) {
             checkAddressBtn.click();
             checkoutBtn.click();
@@ -44,6 +44,5 @@ public class PaymentPage extends PageObject {
             checkoutBtn.click();
 
         }
-        return new SuccessPage(driver);
     }
 }

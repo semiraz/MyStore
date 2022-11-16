@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SmokeTestSuite">
     <listeners>
-        <listener class-name="Listeners"/>
+        <listener class-name="test_components.Listeners"/>
     </listeners>
     <test verbose="2" preserve-order="true" name="/home/semira/IdeaProjects/MyStoreApp-Smoke Test">
         <classes>
-            <class name="SmokeTest"/>
+            <class name="tests.SmokeTest"/>
         </classes>
     </test>
 </suite>
